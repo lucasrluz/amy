@@ -26,8 +26,8 @@ local function set_highlights()
 		CursorLine = { bg = palette.color5 },
 		VertSplit = { fg = palette.color3 },
 		EndOfBuffer = { fg = palette.text },
-		Pmenu = { fg = palette.text, bg = palette.color5 }
-		DiagnosticUnnecessary = { fg = palette.text }
+		Pmenu = { fg = palette.text, bg = palette.color5 },
+		DiagnosticUnnecessary = { fg = palette.text },
 
 		DiffAdd = { bg = palette.background, fg = "#99FFE4" },
 		DiffChange = { bg = palette.background, fg = "#FFCFA8" },
