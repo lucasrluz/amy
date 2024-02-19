@@ -36,6 +36,8 @@ local function set_highlights()
 
 		SignColumn = {  bg = palette.background },
 
+		Comment = { fg = palette.comment },
+
 		-- FUNCTION, CLASS
 		-- KEYWORD
 		["@keyword.import"] = { fg = palette.color2 },
